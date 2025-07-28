@@ -1,0 +1,16 @@
+body {
+        text-align: center;
+        border: 5px solid;
+        background-color:plum;
+}
+
+.a1
+{
+        text-decoration: underline red;
+        color: white;
+}
+#font1
+{
+        font-style: blalic;
+        color: green;
+}
