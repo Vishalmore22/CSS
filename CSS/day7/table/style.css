@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+}
+
+span {
+  font-size: 24px;
+}
+
+.table {
+  display: table;
+  width:50%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.table-row {
+  display: table-row;
+}
+
+.table-cell {
+  display: table-cell;
+  border: 1px solid #ddd;
+  padding: 12px 10px;
+  vertical-align: middle;
+}
+
+.header {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+code {
+  background-color: #f0f0f0;
+  padding: 2px 5px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+.ri-checkbox-fill{
+    color: rgb(166, 222, 83);
+    font-size: larger;
+}
+.ri-close-large-line{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
