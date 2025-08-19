@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 20px 0 5px;
+    
+    padding: 8px;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 14px;
+    margin: 5px 0 10px;
+    color: #ddd;
+}
+
+.flex-container {
+    display: flex;
+    background: rgb(5, 112, 71);
+    padding: 10px;
+    height: 120px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.box {
+    background: peachpuff;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+
+/* Justify-content */
+.flex-start {
+    justify-content: flex-start;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.center {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+/* Align-items */
+.align-start {
+    align-items: flex-start;
+}
+
+.align-end {
+    align-items: flex-end;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-stretch {
+    align-items: stretch;
+}
+
+.tall {
+    height: 80px;
+}
+
+/* Align-content (requires wrap + multi-rows) */
+.wrap {
+    flex-wrap: wrap;
+    height: 200px;
+    /* taller to show multiple rows */
+}
+
+.align-content-start {
+    align-content: flex-start;
+}
+
+.align-content-end {
+    align-content: flex-end;
+}
+
+.align-content-center {
+    align-content: center;
+}
+
+.align-content-stretch {
+    align-content: stretch;
+}
+
+.align-content-between {
+    align-content: space-between;
+}
+
+.align-content-around {
+    align-content: space-around;
+}
+
+.align-content-evenly {
+    align-content: space-evenly;
+}
+
+.stretch-example .box {
+    height: auto;
+    /* allow stretch to work */
+}

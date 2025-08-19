@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header-1, .header-2 h1, .header-3 h1, .header-4 h1, .header-5 h1, .header-6 h1,.header-7 h1,.header-8 h1, .header-9 h1, .header-10 h1, .header-11 h1, .header-12 h1, .header-13 h1,.header-14 h1 {
+    text-align: center;
+}
+.header-1, .header-2, .header-3, .header-4, .header-5, .header-6, .header-7, .header-8,.header-9, .header-10, .header-11, .header-12, .header-13, .header-14 {
+    padding: 15px 10px;
+    background-color: burlywood;
+    text-transform: capitalize;
+}
+.box-1{
+    display: flex;
+}
+.box-1 .a{
+    text-align: center;
+    width: 100px;
+    height: 100px;  
+    border: solid white;
+    background-color: cornflowerblue;
+}
+.header-2 ul, .header-3 ul, .header-4 ul, .header-5 ul, .header-6 ul, .header-7 ul, .header-8 ul, .header-9 ul, .header-10 ul, .header-11 ul, .header-12 ul, .header-13 ul,.header-14 ul {
+    padding: 10px;
+}
+.box-2{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.box-2 .b{
+    text-align: center;
+    width: 100px;
+    height: 100px; 
+    border: solid white;
+    background-color: cornflowerblue;
+}
+.box-3{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-3 .c{
+    text-align: center;
+    width: 100px;
+    height: 100px; 
+    border: solid white;
+    background-color: cornflowerblue;
+}
+.box-4{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+.box-4 .d{
+    text-align: center;
+    width: 100px;
+    height: 100px; 
+    border: solid white;
+    background-color: cornflowerblue;
+}
+.box-5{
+    display: flex;
+    flex-direction: row;
+}
+.box-5 .e{
+    text-align: center;
+    width: 100px;
+    height: 100px; 
+    border: solid white;
+    background-color: cornflowerblue;
+}
+.box-6{
+    display: flex;
+    flex-direction: column;
+}
+.box-6 .f{
+    text-align: center;
+    width: 100px;
+    height: 100px; 
+    border: solid white;
+    background-color: cornflowerblue;
+}
+.box-7{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.box-7 .g{
+    text-align: center;
+    width: 100px;
+    height: 100px; 
+    border: solid white;
+    background-color: cornflowerblue;
+}
+.box-8{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.box-8 .h{
+    text-align: center;
+    width: 100px;
+    height: 100px; 
+    border: solid white;
+    background-color: cornflowerblue;
+}
+.box-9{
+    display: flex;
+    flex-flow: row wrap;
+}
+.box-9 .i{
+    text-align: center;
+    width: 100px;
+    height: 100px; 
+    border: solid white;
+    background-color: cornflowerblue;
+}
+.box-10{
+    display: flex;
+    flex-flow:  row wrap-reverse;
+}
+.box-10 .j{
+    text-align: center;
+    width: 100px;
+    height: 100px; 
+    border: solid white;
+    background-color: cornflowerblue;
+}
+.box-11{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.box-11 .k{
+    text-align: center;
+    width: 100px;
+    height: 100px; 
+    border: solid white;
+    background-color: cornflowerblue;
+}
+.box-12{
+    display: flex;
+    flex-flow: column wrap;
+}
+.box-12 .l{
+    text-align: center;
+    width: 100px;
+    height: 100px; 
+    border: solid white;
+    background-color: cornflowerblue;
+}
+.box-13{
+    display: flex;
+    flex-flow: column wrap-reverse;
+}
+.box-13 .m{
+    text-align: center;
+    width: 100px;
+    height: 100px; 
+    border: solid white;
+    background-color: cornflowerblue;
+}
+.box-14{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.box-14 .n{
+    text-align: center;
+    width: 100px;
+    height: 100px; 
+    border: solid white;
+    background-color: cornflowerblue;
+}

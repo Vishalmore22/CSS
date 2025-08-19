@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Examples with Definitions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+     <!-- JUSTIFY-CONTENT  -->
+    <h2>Display : Flex (Parent Property) Justify-Content : flex-start;</h2>
+    <p> Default behavior. Items are aligned at the start of the main axis (left side in a row).</p>
+    <div class="flex-container flex-start">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </div>
+
+    <h2>Display : Flex (Parent Property) Justify-Content : flex-end;</h2>
+    <p> Items are aligned at the end of the main axis (right side in a row).</p>
+    <div class="flex-container flex-end">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </div>
+
+    <h2>Display : Flex (Parent Property) Justify-Content : center;</h2>
+    <p> Items are centered along the main axis.</p>
+    <div class="flex-container center">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </div>
+
+    <h2>Display : Flex (Parent Property) Justify-Content : space-between;</h2>
+    <p> Items are spread out with space only between them. First item is at start, last at end.</p>
+    <div class="flex-container space-between">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </div>
+
+    <h2>Display : Flex (Parent Property) Justify-Content : space-around;</h2>
+    <p> Items are evenly distributed with equal space around them. Edges get half spacing.</p>
+    <div class="flex-container space-around">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </div>
+
+    <h2>Display : Flex (Parent Property) Justify-Content : space-evenly;</h2>
+    <p> Items are evenly distributed with equal spacing between items and edges.</p>
+    <div class="flex-container space-evenly">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </div>
+
+
+    <!-- ALIGN-ITEMS  -->
+    <h2>Display : Flex (Parent Property) Align-Items : flex-start;</h2>
+    <p> Items are aligned at the start of the cross axis (top in a row layout).</p>
+    <div class="flex-container align-start">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </div>
+
+    <h2>Display : Flex (Parent Property) Align-Items : flex-end;</h2>
+    <p> Items are aligned at the end of the cross axis (bottom in a row layout).</p>
+    <div class="flex-container align-end">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </div>
+
+    <h2>Display : Flex (Parent Property) Align-Items : center;</h2>
+    <p> Items are centered along the cross axis (vertically in a row layout).</p>
+    <div class="flex-container align-center">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </div>
+
+    <h2>Display : Flex (Parent Property) Align-Items : stretch;</h2>
+    <p> Items stretch to fill the container’s cross axis (if no fixed height is set).</p>
+    <div class="flex-container align-stretch stretch-example">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </div>
+
+
+    <!-- ALIGN-CONTENT  -->
+    <h2>Display : Flex (Parent Property) Align-Content : flex-start;</h2>
+    <p> Multiple rows are packed at the top of the container.</p>
+    <div class="flex-container wrap align-content-start">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+        <div class="box">10</div>
+    </div>
+
+    <h2>Display : Flex (Parent Property) Align-Content : flex-end;</h2>
+    <p> Multiple rows are packed at the bottom of the container.</p>
+    <div class="flex-container wrap align-content-end">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+        <div class="box">10</div>
+    </div>
+
+    <h2>Display : Flex (Parent Property) Align-Content : center;</h2>
+    <p> Multiple rows are packed at the center of the container.</p>
+    <div class="flex-container wrap align-content-center">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+        <div class="box">10</div>
+    </div>
+
+    <h2>Display : Flex (Parent Property) Align-Content : stretch;</h2>
+    <p> Rows stretch to take up the container’s vertical space.</p>
+    <div class="flex-container wrap align-content-stretch">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+        <div class="box">10</div>
+    </div>
+
+    <h2>Display : Flex (Parent Property) Align-Content : space-between;</h2>
+    <p> Rows are evenly spaced, with the first at top and last at bottom.</p>
+    <div class="flex-container wrap align-content-between">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+            
+    </div>
+
+    <h2>Display : Flex (Parent Property) Align-Content : space-around;</h2>
+    <p> Rows are evenly spaced with equal space around them. Edges get half spacing.</p>
+    <div class="flex-container wrap align-content-around">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+        <div class="box">10</div>
+    </div>
+
+    <h2>Display : Flex (Parent Property) Align-Content : space-evenly;</h2>
+    <p> Rows are evenly spaced with equal space between and at edges.</p>
+    <div class="flex-container wrap align-content-evenly">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+        <div class="box">10</div>
+    </div>
+
+</body>
+
+</html>
