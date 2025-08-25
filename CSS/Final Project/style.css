@@ -48,7 +48,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background: url("/dayA14/image/bg-img.jpg");
+    background: url("/image/bg-img.jpg");
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -161,4 +161,5 @@ body {
 
 .footer-links a:hover {
     text-decoration: underline;
+
 }
