@@ -1,0 +1,164 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    position: absolute;
+    width: 100%;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: red;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.lang {
+    padding: 5px 10px;
+    background: transparent;
+    color: white;
+    border: 1px solid gray;
+}
+
+.signin {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+    background: url("/dayA14/image/bg-img.jpg");
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero-content h3 {
+    margin-bottom: 20px;
+}
+
+.email-box {
+    margin-top: 20px;
+}
+
+.email-box input {
+    padding: 10px;
+    width: 300px;
+}
+
+.email-box button {
+    padding: 10px 20px;
+    background: red;
+    color: rgb(11, 11, 11);
+    border: none;
+    cursor: pointer;
+}
+
+/* Trending */
+.trending {
+    padding: 50px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card {
+    width: 150px;
+    height: 200px;
+    background: gray;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Reasons */
+.reasons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 50px;
+    text-align: center;
+}
+
+.reason {
+    background: #222;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+/* FAQ */
+.faq {
+    padding: 50px;
+    text-align: center;
+}
+
+.faq ul {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.faq ul li {
+    background: #222;
+    margin: 10px 0;
+    padding: 15px;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    background: #111;
+    padding: 30px;
+    text-align: center;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.footer-links a {
+    color: gray;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
