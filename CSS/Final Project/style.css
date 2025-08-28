@@ -133,6 +133,10 @@ body {
 }
 
 /* Reasons */
+#h2{
+    margin-left: 20px;
+    padding: 25px;
+}
 .reasons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -142,15 +146,28 @@ body {
 }
 
 .reason {
-    background: #222;
-    padding: 30px;
+    background:linear-gradient(#1a1c3e,#1f0c19);
+    width: 270px;
+    height: 200px;
+    padding: 20px;
     border-radius: 8px;
+}
+.reason>p {
+    font-weight: 700;
+    font-size: 20px;
+}
+.reason>span{
+    color: #ffffffb3;
 }
 
 /* FAQ */
 .faq {
     padding: 50px;
     text-align: center;
+}
+.faq>h2{
+    text-align: left;
+    padding: 20px 15px; 
 }
 
 .faq ul {
